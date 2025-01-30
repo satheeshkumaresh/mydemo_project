@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', credentialsId: 'your-github-credentials-id', url: 'git@github.com:your-repo.git'
+                git branch: 'main', credentialsId: 'Satheeshkumaresh_github_access', url: 'https://github.com/satheeshkumaresh/mydemo_project.git'
             }
         }
 
