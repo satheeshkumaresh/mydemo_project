@@ -26,8 +26,8 @@ pipeline {
                 sh """
                     cd ${DEPLOY_PATH}
                     git pull origin main
-                    systemctl restart apache2
-                """
+                    git branch
+                    """
             }
         }
     }
